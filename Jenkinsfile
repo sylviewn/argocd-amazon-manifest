@@ -4,7 +4,7 @@ node {
     env.IMAGE = 'sylviewewtte/amazon'
 
     stage('Clone repository') {
-             git branch: 'main', url: 'https://github.com/sylviewn/argocd-amazon-manifest.git'  
+             git branch: 'main', url: 'https://github.com/sylviewn/Amazon-clone-Dockerized.git'  
     }
 
     stage('Update GIT') {
