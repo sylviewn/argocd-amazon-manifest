@@ -13,7 +13,7 @@ node {
                     withCredentials([usernamePassword(credentialsId: 'sylviewn-github', passwordVariable: 'GIT_PASSWORD', usernameVariable: 'GIT_USERNAME')]) {
                         //script {def encodedPassword = URLEncoder.encode("$GIT_PASSWORD",'UTF-8')}
                         //script  {def IMAGE='ooghenekaro/amazon'}
-                        sh "git config user.email sylviewwetten@gmail.com"
+                        sh "git config user.email sylviewetten@gmail.com"
                         sh "git config user.name sylviewn"
                         //sh "git switch master"
                         sh "cat deployment.yml"
